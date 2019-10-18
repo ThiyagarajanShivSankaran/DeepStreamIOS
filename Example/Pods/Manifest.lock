@@ -1,0 +1,16 @@
+PODS:
+  - DeepStreamIOS (0.1.0)
+
+DEPENDENCIES:
+  - DeepStreamIOS (from `../`)
+
+EXTERNAL SOURCES:
+  DeepStreamIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeepStreamIOS: d366591a73dcb045ca27aa9bcd04af24a4457732
+
+PODFILE CHECKSUM: bd595823f514d64ea134aa7627113c44260908d0
+
+COCOAPODS: 1.5.3

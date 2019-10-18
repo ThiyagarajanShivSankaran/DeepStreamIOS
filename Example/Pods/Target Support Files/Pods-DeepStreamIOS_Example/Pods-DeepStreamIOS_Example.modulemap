@@ -1,0 +1,6 @@
+framework module Pods_DeepStreamIOS_Example {
+  umbrella header "Pods-DeepStreamIOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

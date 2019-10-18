@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0905D71943F7DDD07DA44A98FECCBD30 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C76C829DAB2857A37BCB2A760C967 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-dummy.m */; };
+		18677B1B84FF438E3CF989C50680CF58 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2060A5FA25BF70F87EE519C06ECDCD1E /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2016F6ADFFBCED8BDF2E9F0F8B5B5643 /* Pods-DeepStreamIOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D240DB3C6E634A92B59FF99C3BFDFAC /* Pods-DeepStreamIOS_Example-dummy.m */; };
+		22E7E3764B7EFA8BDBE71B3B10C1C820 /* DeepStreamIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4357580488F7221B967D8814C35BFD /* DeepStreamIOS-dummy.m */; };
+		3FD187EA23596BCD007F12B7 /* DeepStreamTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD187E923596BCD007F12B7 /* DeepStreamTest.swift */; };
+		4B3DD7F38D0F6A896AA1098BBDD3A78F /* Pods-DeepStreamIOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1759B84F4EF41165CD138C518278D4C /* Pods-DeepStreamIOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59C7A502FC9525DB38D08B7D335BEC4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		75F26540FCDC4450DBB2A583357C7F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C5BF12F38E438F293CDC56E0B4701497 /* DeepStreamIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9A9893444A31CE8D7CCBF6B24D1DDB /* DeepStreamIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1B175F22852579480CCACD60766428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A7F361F9469EA70E4CB86D284F06DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 511F190DDE48FA9E8F68D86566EC1182;
+			remoteInfo = DeepStreamIOS;
+		};
+		966727F2169F5F0FA8CAA60ECDFB4BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 511F190DDE48FA9E8F68D86566EC1182;
+			remoteInfo = DeepStreamIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E331DDE1115973D6C611400141BBBD /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		149CA6538C17AC11600EB429065FA00C /* DeepStreamIOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeepStreamIOS.xcconfig; sourceTree = "<group>"; };
+		2060A5FA25BF70F87EE519C06ECDCD1E /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		25F158312FC3F6E1F18BF5F55D6F0595 /* Pods-DeepStreamIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepStreamIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C37B8164D464196EB174050CB78D4CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9A9893444A31CE8D7CCBF6B24D1DDB /* DeepStreamIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeepStreamIOS-umbrella.h"; sourceTree = "<group>"; };
+		3A3B33271461E856029831EC41D4AFAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3D240DB3C6E634A92B59FF99C3BFDFAC /* Pods-DeepStreamIOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeepStreamIOS_Example-dummy.m"; sourceTree = "<group>"; };
+		3FD187E923596BCD007F12B7 /* DeepStreamTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeepStreamTest.swift; path = DeepStreamIOS/Classes/DeepStreamTest.swift; sourceTree = "<group>"; };
+		4659EA3F09707451517E68EF864E6BB6 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4C209B551F8287BD96C4F0458DF12DD2 /* Pods-DeepStreamIOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepStreamIOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59A620AEEE086C77684E982B05C42910 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D4204B28ACA4F38A506EA823DF44767 /* Pods-DeepStreamIOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeepStreamIOS_Example.modulemap"; sourceTree = "<group>"; };
+		640E9F0684F34C9A64C0038D369C1BDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66478F807894641743CFA6E005C2465F /* Pods_DeepStreamIOS_Example_DeepStreamIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepStreamIOS_Example_DeepStreamIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC85DC23DF79C57BE7DF60F16F4D16A /* DeepStreamIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeepStreamIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783D1D34032D376AB60C7088164516DD /* Pods-DeepStreamIOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeepStreamIOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		811598E72007AF162A8BF8C2A0901A30 /* Pods-DeepStreamIOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeepStreamIOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88118E9FA50334D2B1ACD30C83418CF8 /* DeepStreamIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeepStreamIOS.modulemap; sourceTree = "<group>"; };
+		890B84B70A82F07037D9C15E09261EB2 /* Pods-DeepStreamIOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepStreamIOS_Example-resources.sh"; sourceTree = "<group>"; };
+		8D1C45F3B765B29753BE68209BB7229D /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D5C76C829DAB2857A37BCB2A760C967 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA990719625E95421C1A2ACC2CCEBDB5 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB904B23B91DF60DFFB38E240B336E87 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD11359E9741274F5253E88B298A1543 /* Pods-DeepStreamIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepStreamIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CF52928BB2972AC2CB2E3422306C80F1 /* DeepStreamIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeepStreamIOS-prefix.pch"; sourceTree = "<group>"; };
+		D1759B84F4EF41165CD138C518278D4C /* Pods-DeepStreamIOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeepStreamIOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF4357580488F7221B967D8814C35BFD /* DeepStreamIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeepStreamIOS-dummy.m"; sourceTree = "<group>"; };
+		E361B6792CDFD367A915B326FE8940B0 /* DeepStreamIOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DeepStreamIOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EEAE5E0E364A4B64F8743F27D25021D5 /* Pods_DeepStreamIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepStreamIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F456001970BCB44EEEAC183A72D606BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F71E082088B613566421FB9F717CF8D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92F9556D5670947C79C6F86DA490C8A /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167D7613653065780E351079FF79102D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F26540FCDC4450DBB2A583357C7F19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAB7B45630C84D02E6E3B0136D6D4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C7A502FC9525DB38D08B7D335BEC4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19DE930EE46ED9CD04D23B1FD54F712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1B175F22852579480CCACD60766428 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF2C16155C3DF2AD67E949346F683AA /* DeepStreamIOS */ = {
+			isa = PBXGroup;
+			children = (
+				644279ACA0DD160EE05F2B1BCDE174F9 /* Pod */,
+				6948F30224890921272A8E7DD199EE86 /* Support Files */,
+				3FD187E923596BCD007F12B7 /* DeepStreamTest.swift */,
+			);
+			name = DeepStreamIOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		27D9883494436FCEB25AAB9F4BF63345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EC85DC23DF79C57BE7DF60F16F4D16A /* DeepStreamIOS.framework */,
+				EEAE5E0E364A4B64F8743F27D25021D5 /* Pods_DeepStreamIOS_Example.framework */,
+				66478F807894641743CFA6E005C2465F /* Pods_DeepStreamIOS_Example_DeepStreamIOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B26310BDCF05ED57CE09DAAAF2275C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FF2C16155C3DF2AD67E949346F683AA /* DeepStreamIOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F952B38494499BE966E3DABFB83227A /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				640E9F0684F34C9A64C0038D369C1BDD /* Info.plist */,
+				F92F9556D5670947C79C6F86DA490C8A /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.modulemap */,
+				8D1C45F3B765B29753BE68209BB7229D /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-acknowledgements.markdown */,
+				AA990719625E95421C1A2ACC2CCEBDB5 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-acknowledgements.plist */,
+				8D5C76C829DAB2857A37BCB2A760C967 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-dummy.m */,
+				4659EA3F09707451517E68EF864E6BB6 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-frameworks.sh */,
+				04E331DDE1115973D6C611400141BBBD /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-resources.sh */,
+				2060A5FA25BF70F87EE519C06ECDCD1E /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-umbrella.h */,
+				59A620AEEE086C77684E982B05C42910 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.debug.xcconfig */,
+				BB904B23B91DF60DFFB38E240B336E87 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests";
+			path = "Target Support Files/Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests";
+			sourceTree = "<group>";
+		};
+		644279ACA0DD160EE05F2B1BCDE174F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E361B6792CDFD367A915B326FE8940B0 /* DeepStreamIOS.podspec */,
+				3A3B33271461E856029831EC41D4AFAF /* LICENSE */,
+				F456001970BCB44EEEAC183A72D606BA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6948F30224890921272A8E7DD199EE86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88118E9FA50334D2B1ACD30C83418CF8 /* DeepStreamIOS.modulemap */,
+				149CA6538C17AC11600EB429065FA00C /* DeepStreamIOS.xcconfig */,
+				DF4357580488F7221B967D8814C35BFD /* DeepStreamIOS-dummy.m */,
+				CF52928BB2972AC2CB2E3422306C80F1 /* DeepStreamIOS-prefix.pch */,
+				2F9A9893444A31CE8D7CCBF6B24D1DDB /* DeepStreamIOS-umbrella.h */,
+				2C37B8164D464196EB174050CB78D4CA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DeepStreamIOS";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				44B26310BDCF05ED57CE09DAAAF2275C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				27D9883494436FCEB25AAB9F4BF63345 /* Products */,
+				E147EFEDFCD3262830D3D142EC724ED9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0DCBF903D6CD11C510E2D8FE7FDC1EC /* Pods-DeepStreamIOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F71E082088B613566421FB9F717CF8D9 /* Info.plist */,
+				5D4204B28ACA4F38A506EA823DF44767 /* Pods-DeepStreamIOS_Example.modulemap */,
+				811598E72007AF162A8BF8C2A0901A30 /* Pods-DeepStreamIOS_Example-acknowledgements.markdown */,
+				783D1D34032D376AB60C7088164516DD /* Pods-DeepStreamIOS_Example-acknowledgements.plist */,
+				3D240DB3C6E634A92B59FF99C3BFDFAC /* Pods-DeepStreamIOS_Example-dummy.m */,
+				4C209B551F8287BD96C4F0458DF12DD2 /* Pods-DeepStreamIOS_Example-frameworks.sh */,
+				890B84B70A82F07037D9C15E09261EB2 /* Pods-DeepStreamIOS_Example-resources.sh */,
+				D1759B84F4EF41165CD138C518278D4C /* Pods-DeepStreamIOS_Example-umbrella.h */,
+				BD11359E9741274F5253E88B298A1543 /* Pods-DeepStreamIOS_Example.debug.xcconfig */,
+				25F158312FC3F6E1F18BF5F55D6F0595 /* Pods-DeepStreamIOS_Example.release.xcconfig */,
+			);
+			name = "Pods-DeepStreamIOS_Example";
+			path = "Target Support Files/Pods-DeepStreamIOS_Example";
+			sourceTree = "<group>";
+		};
+		E147EFEDFCD3262830D3D142EC724ED9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0DCBF903D6CD11C510E2D8FE7FDC1EC /* Pods-DeepStreamIOS_Example */,
+				5F952B38494499BE966E3DABFB83227A /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5569E7F9B65636C4C408A0031A9A1EFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18677B1B84FF438E3CF989C50680CF58 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7514E422F22E4279155D26820645F0CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3DD7F38D0F6A896AA1098BBDD3A78F /* Pods-DeepStreamIOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6ABBC1B220F05FFDF25B494396843 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BF12F38E438F293CDC56E0B4701497 /* DeepStreamIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06FAE5A429D675C671C00D5DF7FE330A /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE2FCDB8F071026156844EC3DA0EF6A /* Build configuration list for PBXNativeTarget "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests" */;
+			buildPhases = (
+				54A30ACA3EB7F5807E8DA56BB9ED668D /* Sources */,
+				F19DE930EE46ED9CD04D23B1FD54F712 /* Frameworks */,
+				5569E7F9B65636C4C408A0031A9A1EFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2575C16427CAD5E5E18BEFC7E4DA616 /* PBXTargetDependency */,
+			);
+			name = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests";
+			productName = "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests";
+			productReference = 66478F807894641743CFA6E005C2465F /* Pods_DeepStreamIOS_Example_DeepStreamIOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		511F190DDE48FA9E8F68D86566EC1182 /* DeepStreamIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B210B090CE97F0CC7038E0B587B7E4EC /* Build configuration list for PBXNativeTarget "DeepStreamIOS" */;
+			buildPhases = (
+				02BF4D910CC5E42BD20702AD28602F4F /* Sources */,
+				4EAB7B45630C84D02E6E3B0136D6D4D5 /* Frameworks */,
+				97D6ABBC1B220F05FFDF25B494396843 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepStreamIOS;
+			productName = DeepStreamIOS;
+			productReference = 6EC85DC23DF79C57BE7DF60F16F4D16A /* DeepStreamIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA1D84FACA35BD99A4AF10C8747E7A77 /* Pods-DeepStreamIOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E0CADFA976E7B17F07558BD7EEA09A /* Build configuration list for PBXNativeTarget "Pods-DeepStreamIOS_Example" */;
+			buildPhases = (
+				A71057F7367196DD9B6549871D7F2021 /* Sources */,
+				167D7613653065780E351079FF79102D /* Frameworks */,
+				7514E422F22E4279155D26820645F0CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E3D89F131B7A8F552D09BF19592458 /* PBXTargetDependency */,
+			);
+			name = "Pods-DeepStreamIOS_Example";
+			productName = "Pods-DeepStreamIOS_Example";
+			productReference = EEAE5E0E364A4B64F8743F27D25021D5 /* Pods_DeepStreamIOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					511F190DDE48FA9E8F68D86566EC1182 = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 27D9883494436FCEB25AAB9F4BF63345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				511F190DDE48FA9E8F68D86566EC1182 /* DeepStreamIOS */,
+				AA1D84FACA35BD99A4AF10C8747E7A77 /* Pods-DeepStreamIOS_Example */,
+				06FAE5A429D675C671C00D5DF7FE330A /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02BF4D910CC5E42BD20702AD28602F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E7E3764B7EFA8BDBE71B3B10C1C820 /* DeepStreamIOS-dummy.m in Sources */,
+				3FD187EA23596BCD007F12B7 /* DeepStreamTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A30ACA3EB7F5807E8DA56BB9ED668D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0905D71943F7DDD07DA44A98FECCBD30 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71057F7367196DD9B6549871D7F2021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2016F6ADFFBCED8BDF2E9F0F8B5B5643 /* Pods-DeepStreamIOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2575C16427CAD5E5E18BEFC7E4DA616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeepStreamIOS;
+			target = 511F190DDE48FA9E8F68D86566EC1182 /* DeepStreamIOS */;
+			targetProxy = 2A7F361F9469EA70E4CB86D284F06DB6 /* PBXContainerItemProxy */;
+		};
+		E6E3D89F131B7A8F552D09BF19592458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeepStreamIOS;
+			target = 511F190DDE48FA9E8F68D86566EC1182 /* DeepStreamIOS */;
+			targetProxy = 966727F2169F5F0FA8CAA60ECDFB4BE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		138AF1F6D2404148F317AF945B0BC2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149CA6538C17AC11600EB429065FA00C /* DeepStreamIOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeepStreamIOS/DeepStreamIOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeepStreamIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeepStreamIOS/DeepStreamIOS.modulemap";
+				PRODUCT_MODULE_NAME = DeepStreamIOS;
+				PRODUCT_NAME = DeepStreamIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17B1C6284FC2008AD1A55E185281FE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149CA6538C17AC11600EB429065FA00C /* DeepStreamIOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeepStreamIOS/DeepStreamIOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeepStreamIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeepStreamIOS/DeepStreamIOS.modulemap";
+				PRODUCT_MODULE_NAME = DeepStreamIOS;
+				PRODUCT_NAME = DeepStreamIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29588D3B93C97028B2DE5B84EFAF4937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A620AEEE086C77684E982B05C42910 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests/Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AC5DFE4EA55F0DF15813D3DD69AA260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD11359E9741274F5253E88B298A1543 /* Pods-DeepStreamIOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeepStreamIOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeepStreamIOS_Example/Pods-DeepStreamIOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3574AA89C5DE7F41D40A9C4427856842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F158312FC3F6E1F18BF5F55D6F0595 /* Pods-DeepStreamIOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeepStreamIOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeepStreamIOS_Example/Pods-DeepStreamIOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76E0EFDC3D2C95F142BB023EB36C8E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB904B23B91DF60DFFB38E240B336E87 /* Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests/Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E0CADFA976E7B17F07558BD7EEA09A /* Build configuration list for PBXNativeTarget "Pods-DeepStreamIOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC5DFE4EA55F0DF15813D3DD69AA260 /* Debug */,
+				3574AA89C5DE7F41D40A9C4427856842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B210B090CE97F0CC7038E0B587B7E4EC /* Build configuration list for PBXNativeTarget "DeepStreamIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B1C6284FC2008AD1A55E185281FE96 /* Debug */,
+				138AF1F6D2404148F317AF945B0BC2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE2FCDB8F071026156844EC3DA0EF6A /* Build configuration list for PBXNativeTarget "Pods-DeepStreamIOS_Example-DeepStreamIOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29588D3B93C97028B2DE5B84EFAF4937 /* Debug */,
+				76E0EFDC3D2C95F142BB023EB36C8E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
