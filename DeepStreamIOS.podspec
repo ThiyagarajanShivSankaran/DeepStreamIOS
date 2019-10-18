@@ -44,13 +44,13 @@ s.watchos.vendored_libraries  = 'lib/iosRelease/libdeepstream.io-client-java-j2o
 s.osx.vendored_libraries      = 'lib/x86_64Release/libdeepstream.io-client-java-j2objc.a'
 
 s.xcconfig = {
-'HEADER_SEARCH_PATHS'  => '${PODS_ROOT}/DeepstreamIO333/j2objc/include ${PODS_ROOT}/DeepstreamIO333/src/main/objc'
+'HEADER_SEARCH_PATHS'  => '${PODS_ROOT}/DeepStreamIOS/j2objc/include ${PODS_ROOT}/DeepStreamIOS/src/main/objc'
 }
 s.ios.xcconfig = {
-'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO333/j2objc/lib'
+'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepStreamIOS/j2objc/lib'
 }
 s.osx.xcconfig = {
-'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepstreamIO333/j2objc/lib/macosx'
+'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/DeepStreamIOS/j2objc/lib/macosx'
 }
 
 s.ios.deployment_target     = '8.3'
