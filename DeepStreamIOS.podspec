@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ThiyagarajanShivSankaran' => 'thiyagarajan@nobel-systems.com' }
   # s.source           = { :git => 'https://github.com/ThiyagarajanShivSankaran/DeepStreamIOS.git', :tag => s.version.to_s }
-  s.source                    = { :http => "http://geoviewermobiledata.s3.amazonaws.com/DeepstreamIO333-2.2.2.zip" }
+s.source                    = { :http => "http://geoviewermobiledata.s3.amazonaws.com/DeepStreamIOS-#{s.version}.zip" }
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
